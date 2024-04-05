@@ -15,7 +15,7 @@ public class metodo_Persona {
         int tiempo_mes =(mes_Actual-mes_nacimeinto);
         int tiempo_año =(año_Actual-año_nacimineto);
 
-        String tiempo = "El tiempo de vida es de: "+tiempo_año+" años " + tiempo_mes + "meses " + tiempo_dia + " dias ";
+        String tiempo = "El tiempo de vida de la persona es de: "+tiempo_año+" años " + tiempo_mes + "meses " + tiempo_dia + " dias ";
 
         return tiempo;
     }
